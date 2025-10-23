@@ -2,4 +2,6 @@
 Full compile-time printf without Unicode bloat.
 
 ## Demo
-![Demo Video](demo.webm)
+<video controls width="350">
+    <source src="demo.webm" type="video/webm" />
+</video>
