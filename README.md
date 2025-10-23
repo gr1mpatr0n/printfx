@@ -16,4 +16,7 @@ this will work in the editor, too.
 #### Should I use this?
 
 Maybe? It's the first "real" C++ library I've made and for 99% of cases you
-should probably use libfmt.
+should probably use libfmt. I made it because binary bloat with libfmt and
+std::format were greater than my tolerance. With printfˣ, you get nothing but
+a call to the system's printf (or equivalents). No Unicode tables, no plethora
+of error strings.
